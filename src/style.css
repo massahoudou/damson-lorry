@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@layer utilities{
+
+    .icon{
+        @apply text-green-600 group-hover:text-gray-600 ;
+    }
+    .control{
+        @apply  py-3 px-4 bg-transparent   rounded-lg  font-light   focus:outline-none ;
+    }
+    .control-group{
+        @apply mx-1 my-1 md:m-0 lg:m-0  flex flex-row items-center group  hover:bg-gray-200   text-gray-600  transition ease-in-out delay-150  px-4 mx-1 rounded-lg 
+    }
+    .card{
+        @apply relative w-80  p-2  bg-white shadow hover:shadow-lg rounded-lg  ;
+    }
+    .button{
+        @apply  rounded py-2 px-3  text-white  hover:opacity-80 ;
+    }
+    .animate-translate{
+        @apply delay-150 transform transition ease-in-out  hover:-translate-y-5;
+    }
+
+}
