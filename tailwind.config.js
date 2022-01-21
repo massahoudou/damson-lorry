@@ -9,9 +9,8 @@ module.exports = {
       colors: {
         "lorry-primary": "#FFCE15",
         "lorry-secondary": "#146C53",
-        "bookmark-blue": "#242A45",
-        "bookmark-grey": "#9194A2",
-        "bookmark-white": "#f7f7f7",
+        "degrade_green" : "#136C54",
+        "degrade_blue" : "#016A99",
       }
     },
       fontFamily: {

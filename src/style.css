@@ -16,10 +16,13 @@
         @apply mx-1 my-1 md:m-0 lg:m-0  flex flex-row items-center group  hover:bg-gray-200   text-gray-600  transition ease-in-out delay-150  px-4 mx-1 rounded-lg 
     }
     .card{
-        @apply relative w-80  p-2  bg-white shadow hover:shadow-lg rounded-lg  ;
+        @apply relative w-full md:w-80 lg:w-80  p-2  bg-white shadow hover:shadow-xl rounded-lg  ;
     }
     .button{
         @apply  rounded py-2 px-3  text-white  hover:opacity-80 ;
+    }
+    .search-button{
+       @apply  mt-2 md:mt-0  lg:mt-0 px-2 py-4 w-24  text-white text-center bg-green-600 hover:opacity-75 flex-1 lg:flex-auto rounded-lg ;
     }
     .animate-translate{
         @apply delay-150 transform transition ease-in-out  hover:-translate-y-5;
